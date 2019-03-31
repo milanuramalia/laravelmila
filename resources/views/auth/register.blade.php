@@ -9,9 +9,15 @@
 
                 <div class="panel-body">
                     <form class="form-horizontal" method="POST" action="{{ route('register') }}">
+<<<<<<< HEAD
                         {{ csrf_field() }}
 
                         <div class="form-group{{ $errors->has('name') ? ' has-error' : '' }}">
+=======
+                        {{csrf_field()}}
+
+                        <div class="form-group{{ $errors->has('name') ? 'has-error' : '' }}">
+>>>>>>> video 1-5
                             <label for="name" class="col-md-4 control-label">Name</label>
 
                             <div class="col-md-6">
@@ -25,7 +31,11 @@
                             </div>
                         </div>
 
+<<<<<<< HEAD
                         <div class="form-group{{ $errors->has('email') ? ' has-error' : '' }}">
+=======
+                        <div class="form-group{{ $errors->has('email') ? 'has-error' : '' }}">
+>>>>>>> video 1-5
                             <label for="email" class="col-md-4 control-label">E-Mail Address</label>
 
                             <div class="col-md-6">
@@ -39,7 +49,11 @@
                             </div>
                         </div>
 
+<<<<<<< HEAD
                         <div class="form-group{{ $errors->has('password') ? ' has-error' : '' }}">
+=======
+                        <div class="form-group{{ $errors->has('password') ? 'has-error' : '' }}">
+>>>>>>> video 1-5
                             <label for="password" class="col-md-4 control-label">Password</label>
 
                             <div class="col-md-6">

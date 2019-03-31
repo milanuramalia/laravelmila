@@ -25,7 +25,11 @@ class ResetPasswordController extends Controller
      *
      * @var string
      */
+<<<<<<< HEAD
     protected $redirectTo = '/home';
+=======
+  
+>>>>>>> video 1-5
 
     /**
      * Create a new controller instance.
@@ -36,4 +40,12 @@ class ResetPasswordController extends Controller
     {
         $this->middleware('guest');
     }
+<<<<<<< HEAD
+=======
+
+     protected function redirect()
+    {
+       return route('admin.home'); 
+    }
+>>>>>>> video 1-5
 }

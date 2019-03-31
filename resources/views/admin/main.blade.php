@@ -36,6 +36,7 @@
 
         <div class="container-fluid">
 
+<<<<<<< HEAD
           <!-- Breadcrumbs-->
           <ol class="breadcrumb">
             <li class="breadcrumb-item">
@@ -48,11 +49,16 @@
           <h1>Blank Page</h1>
           <hr>
           <p>This is a great starting point for new custom pages.</p>
+=======
+          <!-- Page Content -->
+         @yield('content')
+>>>>>>> video 1-5
 
         </div>
         <!-- /.container-fluid -->
 
         <!-- Sticky Footer -->
+<<<<<<< HEAD
         <footer class="sticky-footer">
           <div class="container my-auto">
             <div class="copyright text-center my-auto">
@@ -60,6 +66,9 @@
             </div>
           </div>
         </footer>
+=======
+        @include('admin.folder')
+>>>>>>> video 1-5
 
       </div>
       <!-- /.content-wrapper -->
@@ -72,6 +81,7 @@
       <i class="fas fa-angle-up"></i>
     </a>
 
+<<<<<<< HEAD
     <!-- Logout Modal-->
     <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
       <div class="modal-dialog" role="document">
@@ -90,6 +100,10 @@
         </div>
       </div>
     </div>
+=======
+    <!--Modal-->
+    @stack('modal')
+>>>>>>> video 1-5
 
     <!-- Bootstrap core JavaScript-->
     <script src="{{url('theme-sbmila/vendor/jquery/jquery.min.js')}}"></script>
@@ -100,7 +114,12 @@
 
     <!-- Custom scripts for all pages-->
     <script src="{{url('theme-sbmila/js/sb-admin.min.js')}}"></script>
+<<<<<<< HEAD
 
+=======
+    <script type="text/javascript" src="{{url('theme-sbmila/js/navbar-nav.js')}}"></script>
+    @stack('js')
+>>>>>>> video 1-5
   </body>
 
 </html>
