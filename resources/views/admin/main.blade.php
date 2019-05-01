@@ -36,39 +36,18 @@
 
         <div class="container-fluid">
 
-<<<<<<< HEAD
-          <!-- Breadcrumbs-->
-          <ol class="breadcrumb">
-            <li class="breadcrumb-item">
-              <a href="index.html">Dashboard</a>
-            </li>
-            <li class="breadcrumb-item active">Blank Page</li>
-          </ol>
 
           <!-- Page Content -->
-          <h1>Blank Page</h1>
-          <hr>
-          <p>This is a great starting point for new custom pages.</p>
-=======
-          <!-- Page Content -->
          @yield('content')
->>>>>>> video 1-5
+
 
         </div>
         <!-- /.container-fluid -->
 
         <!-- Sticky Footer -->
-<<<<<<< HEAD
-        <footer class="sticky-footer">
-          <div class="container my-auto">
-            <div class="copyright text-center my-auto">
-              <span>Copyright © Your Website 2018</span>
-            </div>
-          </div>
-        </footer>
-=======
+
         @include('admin.folder')
->>>>>>> video 1-5
+
 
       </div>
       <!-- /.content-wrapper -->
@@ -81,29 +60,9 @@
       <i class="fas fa-angle-up"></i>
     </a>
 
-<<<<<<< HEAD
-    <!-- Logout Modal-->
-    <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
-            <button class="close" type="button" data-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true">×</span>
-            </button>
-          </div>
-          <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
-          <div class="modal-footer">
-            <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
-            <a class="btn btn-primary" href="login.html">Logout</a>
-          </div>
-        </div>
-      </div>
-    </div>
-=======
-    <!--Modal-->
+
+    <!--Logout Modal-->
     @stack('modal')
->>>>>>> video 1-5
 
     <!-- Bootstrap core JavaScript-->
     <script src="{{url('theme-sbmila/vendor/jquery/jquery.min.js')}}"></script>
@@ -114,12 +73,9 @@
 
     <!-- Custom scripts for all pages-->
     <script src="{{url('theme-sbmila/js/sb-admin.min.js')}}"></script>
-<<<<<<< HEAD
 
-=======
     <script type="text/javascript" src="{{url('theme-sbmila/js/navbar-nav.js')}}"></script>
     @stack('js')
->>>>>>> video 1-5
   </body>
 
 </html>
